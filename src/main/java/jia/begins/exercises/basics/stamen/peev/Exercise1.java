@@ -1,4 +1,4 @@
-package jia.exercises.basics.stamen.peev;
+package jia.begins.exercises.basics.stamen.peev;
 /**
  * Created by IntelliJ IDEA.
  * User: Stam
@@ -6,8 +6,13 @@ package jia.exercises.basics.stamen.peev;
  * Time: 14:29:07
  * To change this template use File | Settings | File Templates.
  */
-import java.util.*;
-import java.io.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class Exercise1 {
     public static void main(String[] args) throws FileNotFoundException {
         File employees = new File("employees.txt");
